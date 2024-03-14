@@ -85,7 +85,7 @@ $$ \int_a^b \left( \int_a^x f(x,y)\ \mathrm{d}y \right)\ \mathrm{d}x
 
 $$ C := \lbrace (x,y) \in [a,b]^2\ |\ x \geq y \rbrace. $$
 
-![IMG_2965](https://hackmd.io/_uploads/B1PoCO2pa.jpg)
+![IMG_2965](fig1.jpg)
 
 ### 3.2
 On suppose de plus que, presque pour tout $(x,y) \in [a,b]^2$, on a $f(y,x)=f(x,y)$. Montrer que
