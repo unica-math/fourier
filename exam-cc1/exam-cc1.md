@@ -126,7 +126,7 @@ $$ \sum_n u_n (\lambda v_n + w_n) = \lambda \sum_n u_n v_n + \sum_n u_n w_n, $$
 
 d'où la linéarité. La majoration précédente montre la continuité de cette application linéaire puisque, pour toute suite $(v_n)_n$ de $(c_0,\|\cdot\|_\infty)$,
 
-$$ |\sum_n u_n v_n| \leq \|u\|_1 \|v\|_\infty. $$
+$$ |\sum_n u_n v_n| \leq \|\| u \|\|\_1 \|\|v\|\|_\infty. $$
 
 On en déduit également que la norme de cette application linéaire continue est majorée par $\|u\|_1$.
 
@@ -143,7 +143,7 @@ $$ \sum_n (\lambda u_n + w_n) v_n =  \lambda \sum_n u_n v_n + \sum_n w_n v_n. $$
 
 L'application $\Theta$ étant donc linéaire, la majoration obtenue à la question précédente montre la continuité ; on en déduit que
 
-$$ \|\Theta\|_{\mathscr{L}(\ell^1,(c_0)')} \leq 1. $$
+$$ \|\| \Theta \|\|_{\mathscr{L}(\ell^1,(c_0)')} \leq 1. $$
 
 ### 4.3
 Montrer que $\Theta$ est injective.
@@ -168,11 +168,11 @@ $$ \sum_{n=0}^N |u_n| = \sum_{n=0}^N \langle \varphi,\varepsilon_n e^n \rangle,\
 
 de sorte que
 
-$$ \sum_{n=0}^N |u_n|  \leq \|\varphi\|_{(c_0)'} \cdot  \underbrace{\|\sum_{n=0}^N \varepsilon_n e^n\|_\infty}_{=1} = \|\varphi\|_{(c_0)'} < \infty. $$
+$$ \sum_{n=0}^N |u_n|  \leq \|\| \varphi \|\|\_{(c_0)'} \cdot  \underbrace{\|\| \sum_{n=0}^N \varepsilon_n e^n \|\|\_\infty}\_{=1} = \|\| \varphi \|\|_{(c_0)'} < \infty. $$
 
 Soit finalement $(v_n)_n$ dans $c_0$, comme $\sum_{n=0}^N v_n e^n$ converge vers $(v_n)_n$, par linéarité et continuité de $\varphi$ on a
 
-$$ \langle \varphi,(v_n)_n \rangle = \lim_{N \to \infty} \sum_{n=0}^N v_n \langle \varphi,e^n \rangle = \sum_n u_n v_n = \langle \Theta \cdot (u_n)_n,(v_n)_n \rangle, $$
+$$ \langle \varphi,(v_n)\_n \rangle = \lim_{N \to \infty} \sum_{n=0}^N v_n \langle \varphi,e^n \rangle = \sum_n u_n v_n = \langle \Theta \cdot (u_n)_n,(v_n)_n \rangle, $$
 
 d'où la surjectivité. 
 
@@ -181,7 +181,7 @@ Montrer que $\Theta$ est un isomorphisme isométrique.
 
 **Réponse.** La suite $(u_n)_n$ de $\ell^1$ déterminée à la question précédente vérifie $\|(u_n)_n\|_1 \leq \|\varphi\|_{(c_0)'}$ ; ça montre la continuité de la réciproque $\Theta^{-1}$, linéaire,[^1] et on a
 
-$$ \|(u_n)_n\|_1 \leq \|\Theta \cdot (u_n)_n\|_{(c_0)'} \leq \|(u_n)_n\|_1 $$
+$$ \|\| (u_n)\_n \|\|\_1 \leq \|\| \Theta \cdot (u_n)\_n \|\|_{(c_0)'} \leq \|\| (u_n)_n \|\|_1 $$
 
 au vu du 4.1, d'où le caractère isométrique de l'isomorphisme.
 
