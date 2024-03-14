@@ -118,15 +118,15 @@ définit une forme linéaire continue sur $c_0$.
 
 **Réponse.** Une suite $c_0$ est bornée, et on peut appliquer Hölder pour majorer,
 
-$$ \sum_n |u_n v_n| \leq \|u\|_1 \|v\|_\infty < \infty, $$
+$$ \sum_n |u_n v_n| \leq \|\| u \|\|\_1 \|\| v \|\|_\infty < \infty, $$
 
 ce qui montre la convergence absolue (normale) de cette série de réels, donc sa convergence. Par linéarité et par continuité du produit par un scalaire et de la somme de deux scalaires, on vérifie que
 
 $$ \sum_n u_n (\lambda v_n + w_n) = \lambda \sum_n u_n v_n + \sum_n u_n w_n, $$
 
-d'où la linéarité. La majoration précédente montre la continuité de cette application linéaire puisque, pour toute suite $(v_n)_n$ de $(c_0,\|\cdot\|_\infty)$,
+d'où la linéarité. La majoration précédente montre la continuité de cette application linéaire puisque, pour toute suite $(v_n)\_n$ de $(c_0,\|\cdot\|_\infty)$,
 
-$$ |\sum_n u_n v_n| \leq \|\| u \|\|\_1 \|\|v\|\|_\infty. $$
+$$ |\sum_n u_n v_n| \leq \|\| u \|\|\_1 \|\| v \|\|_\infty. $$
 
 On en déduit également que la norme de cette application linéaire continue est majorée par $\|u\|_1$.
 
