@@ -124,7 +124,7 @@ ce qui montre la convergence absolue (normale) de cette série de réels, donc s
 
 $$ \sum_n u_n (\lambda v_n + w_n) = \lambda \sum_n u_n v_n + \sum_n u_n w_n, $$
 
-d'où la linéarité. La majoration précédente montre la continuité de cette application linéaire puisque, pour toute suite $(v_n)\_n$ de $(c_0,\|\cdot\|_\infty)$,
+d'où la linéarité. La majoration précédente montre la continuité de cette application linéaire puisque, pour toute suite $(v_n)\_n$ de $(c_0,\|\| \cdot \|\|_\infty)$,
 
 $$ |\sum_n u_n v_n| \leq \|\| u \|\|\_1 \|\| v \|\|_\infty. $$
 
