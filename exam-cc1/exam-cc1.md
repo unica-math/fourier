@@ -128,7 +128,7 @@ d'où la linéarité. La majoration précédente montre la continuité de cette 
 
 $$ |\sum_n u_n v_n| \leq \|\| u \|\|\_1 \|\| v \|\|_\infty. $$
 
-On en déduit également que la norme de cette application linéaire continue est majorée par $\|u\|_1$.
+On en déduit également que la norme de cette application linéaire continue est majorée par $\|\| u \|\|_1$.
 
 ### 4.2
 On considère l'application $\Theta$ de $\ell^1$ dans $(c_0)'$, le dual topologique de $c_0$, qui à $(u_n)_n$ dans $\ell^1$ associe la forme linéaire continue précédemment définie : 
