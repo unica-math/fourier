@@ -170,7 +170,7 @@ de sorte que
 
 $$ \sum_{n=0}^N |u_n|  \leq \|\| \varphi \|\|\_{(c_0)'} \cdot  \underbrace{\|\| \sum_{n=0}^N \varepsilon_n e^n \|\|\_\infty}\_{=1} = \|\| \varphi \|\|_{(c_0)'} < \infty. $$
 
-Soit finalement $(v_n)_n$ dans $c_0$, comme $\sum_{n=0}^N v_n e^n$ converge vers $(v_n)_n$, par linéarité et continuité de $\varphi$ on a
+Soit finalement $(v_n)\_n$ dans $c_0$, comme $\sum_{n=0}^N v_n e^n$ converge vers $(v_n)_n$, par linéarité et continuité de $\varphi$ on a
 
 $$ \langle \varphi,(v_n)\_n \rangle = \lim_{N \to \infty} \sum_{n=0}^N v_n \langle \varphi,e^n \rangle = \sum_n u_n v_n = \langle \Theta \cdot (u_n)_n,(v_n)_n \rangle, $$
 
@@ -179,7 +179,7 @@ d'où la surjectivité.
 ### 4.5
 Montrer que $\Theta$ est un isomorphisme isométrique.
 
-**Réponse.** La suite $(u_n)_n$ de $\ell^1$ déterminée à la question précédente vérifie $\|(u_n)_n\|_1 \leq \|\varphi\|_{(c_0)'}$ ; ça montre la continuité de la réciproque $\Theta^{-1}$, linéaire,[^1] et on a
+**Réponse.** La suite $(u_n)\_n$ de $\ell^1$ déterminée à la question précédente vérifie $\|\| (u_n)\_n \|\|\_1 \leq \|\varphi\|_{(c_0)'}$ ; ça montre la continuité de la réciproque $\Theta^{-1}$, linéaire,[^1] et on a
 
 $$ \|\| (u_n)\_n \|\|\_1 \leq \|\| \Theta \cdot (u_n)\_n \|\|_{(c_0)'} \leq \|\| (u_n)_n \|\|_1 $$
 
