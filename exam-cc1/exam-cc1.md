@@ -179,7 +179,7 @@ d'où la surjectivité.
 ### 4.5
 Montrer que $\Theta$ est un isomorphisme isométrique.
 
-**Réponse.** La suite $(u_n)\_n$ de $\ell^1$ déterminée à la question précédente vérifie $\|\| (u_n)\_n \|\|\_1 \leq \|\varphi\|_{(c_0)'}$ ; ça montre la continuité de la réciproque $\Theta^{-1}$, linéaire,[^1] et on a
+**Réponse.** La suite $(u_n)\_n$ de $\ell^1$ déterminée à la question précédente vérifie $\|\| (u_n)\_n \|\|\_1 \leq \|\| \varphi \|\|_{(c_0)'}$ ; ça montre la continuité de la réciproque $\Theta^{-1}$, linéaire,[^1] et on a
 
 $$ \|\| (u_n)\_n \|\|\_1 \leq \|\| \Theta \cdot (u_n)\_n \|\|_{(c_0)'} \leq \|\| (u_n)_n \|\|_1 $$
 
