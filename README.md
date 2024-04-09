@@ -9,6 +9,8 @@
 
 [Exam CC no. 1](exam-cc1/exam-cc1.md)
 
+[Exam CC no. 1](exam-cc2/exam-cc2.md)
+
 # Bibliographie
 
 Voir [LMS](https://lms.univ-cotedazur.fr/2023/course/view.php?id=4182)
