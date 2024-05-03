@@ -61,9 +61,6 @@ $$ \widehat{\psi_n} * f(b) = 0. $$
 **Indication.** On pourra considérer le produit $\widehat{f}(y)\psi_n(y) e^{2i\pi by}$.
 
 **Réponse.**
-$$ \begin{align}
-  0 &= \int_{\mathbf{R}} \widehat{f}(y)\psi_n(y)e^{2i\pi by} \mathrm{d}y
-\end{align} $$
 
 $$ \begin{align}
   0 &= \int_{\mathbf{R}} \widehat{f}(y)\psi_n(y)e^{2i\pi by}\ \mathrm{d}y\\
