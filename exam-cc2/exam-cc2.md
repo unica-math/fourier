@@ -82,12 +82,20 @@ Soit $a > 0$. Déterminer la transformée de Fourier de $h_a(x) := e^{-a|x|}$, $
 
 **Réponse.**
 
+$$ \widehat{h_a}(\xi) = \frac{2a}{a^2 + 4\pi^2\xi^2} $$
+
 ### 2.2
 Soit $\beta \in \mathbf{R}$. À l'aide de la question précédente, montrer que
 
 $$ e^{-|\beta|} = \frac{2}{\pi} \int_0^\infty \frac{\cos(\beta y)}{1+y^2}\ \mathrm{d}y. $$
 
-**Réponse.**
+**Réponse.** Soit $\beta \in \mathbf{R}$, d'après la question précédente (avec $a=1$ et en utilisant la parité)
+
+$$ \begin{align}
+  e^{-|\beta|} &= \matscr{F}^{-1}(\frac{2}{1+4\pi^2\xi^2})\\
+  &= 2\int_0^\infty \cos(2\pi\beta\xi) \frac{2}{1+4\pi^2\xi^2}\ \mathrm{d}\xi\\
+  &= \frac{2}{pi} \int_0^\infty \cos(\beta y) \frac{2}{1+y^2}\ \mathrm{d}y.
+\end{align} $$
 
 ### 2.3
 En déduire que
@@ -98,7 +106,12 @@ $$ e^{-|\beta|} = \int_0^\infty \frac{1}{\sqrt{\pi u}}e^{-u-\beta^2/(4u)}\ \math
 
 $$ \frac{1}{1+y^2} = \int_0^\infty e^{-(1+y^2)u}\ \mathrm{d}u,\quad y \in \mathbf{R}. $$
 
-**Réponse.**
+**Réponse.** On vérifie (Tonelli) qu'on peut Fubiniser l'intégrale ci-dessous, d'où
+
+$$ \begin{align}
+  e^{-|\beta|} &= \frac{2}{pi} \int_0^\infty \cos(\beta y) ( \int_0^\infty e^{-(1+y^2)u}\ \mathrm{d}u ) \ \mathrm{d}y\\
+  &= \frac{1}{pi} \int_0^\infty e^{-u} \underbrace{( 2\int_0^\infty \cos(\beta y) e^{-uy^2}\ \mathrm{d}y}_{=\widehat{e^{-uy^2}(\beta/(2\pi))}} )\ \mathrm{d}u\\
+\end{align} $$
 
 ### 2.4
 On considère désormais $f(x) := e^{-|x|}$, $x \in \mathbf{R^d}$. (Pour $d \geq 1$, on note $|x|=\sqrt{|x_1|^2 + \cdots + |x_d|^2}$.) Pour $u > 0$, on pose $g_u(x) := e^{-|x|^2/(4u)}$, $x \in \mathbf{R}^d$. Montrer que
