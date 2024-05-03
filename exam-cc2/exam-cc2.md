@@ -17,7 +17,7 @@ $$ \int_{\mathbf{R}} \widehat{f}(y) g(y)\ \mathrm{d}y = \int_{\mathbf{R}} f(y) \
 **Réponse.** Par Tonelli,
 
 $$ \int_{\mathbf{R}} |\widehat{f}(y) g(y)|\ \mathrm{d}y
- = \int_{\mathbf{R}} \vert \int_{\mathbf{R}} e^{-2i\pi yx}f(x)\ \mathrm{d}x \vert g(y)\ \mathrm{d}y \leq ||f||_1 ||g||_1 < \infty $$
+ = \int_{\mathbf{R}} | \int_{\mathbf{R}} e^{-2i\pi yx}f(x)\ \mathrm{d}x | g(y)\ \mathrm{d}y \leq ||f||_1 ||g||_1 < \infty $$
 
  donc l'intégrale (de même que l'autre par symétrie) est bien définie, et Fubini s'applique :
 
@@ -39,7 +39,7 @@ Pour $n \geq 1$, pose $\psi_n(x) := \psi(x/n)$, $x \in \mathbf{R}$. Montrer que,
 **Réponse.** Comme $\widehat{\psi}=\psi$, $||\widehat{\psi}||_1 = 1$ ; on a $\widehat{\psi_n}(\xi)=n\widehat{\psi}(n\xi)$, et encore $||\widehat{\psi_n}||_1=1$. Soit $f$ dans $L^1(\mathbf{R})$ et soit $\varepsilon > 0$. Il existe $g$ continue à support compact telle que $||f-g||_1 \leq \varepsilon$, donc
 
 $$ \begin{align}
-  ||\widehat{\psi_n} * f - f||_1 & \leq ||\widehat{\psi_n} * (f-g)||_1 + ||\widehat{\psi_n} * g - g||_1 + ||f-g|_1\\
+  ||\widehat{\psi_n} * f - f||_1 & \leq ||\widehat{\psi_n} * (f-g)||_1 + ||\widehat{\psi_n} * g - g||_1 + ||f-g||_1\\
   & \leq ||\widehat{\psi_n}||_1 ||f-g||_1 + ||\widehat{\psi_n} * g - g||_1 + \varepsilon\\
   & \leq 2\varepsilon + ||\widehat{\psi_n} * g - g||_1
 \end{align} $$
@@ -47,9 +47,11 @@ $$ \begin{align}
 et (changement de variable $z=ny$ pui Fubini)
 
 $$ \begin{align}
-  ||\widehat{\psi_n} * g - g||_1 & = \int_{\mathbf{R}} \vert 
+  ||\widehat{\psi_n} * g - g||_1 & = \int_{\mathbf{R}} | \int_{\mathbf{R}} \widehat{\psi_n}(y)g(x-y)\ \mathrm{d}y - g(x) |\ \mathrm{d}x\\
+  & \leq \int_{\mathbf{R}} \widehat{\psi}(z) ( \int_{\mathbf{R}} |g(x-z/n)-g(x)|\ \mathrm{d}x )\ \mathrm{d}z 
 \end{align} $$
 
+sachant qu'on peut majorer l'intégrale interne par $\varepsilon$ pour $n$ assez grand par uniforme continuité de $g$.
 
 ### 1.4
 On considère désormais $f$ dans $L^1(\mathbf{R})$ telle que $\widehat{f}=0$. Soit $b$ dans $\mathbf{R}$, montrer que
@@ -59,11 +61,18 @@ $$ \widehat{\psi_n} * f(b) = 0. $$
 **Indication.** On pourra considérer le produit $\widehat{f}(y)\psi_n(y) e^{2i\pi by}$.
 
 **Réponse.**
+$$ \begin{align}
+  0 &= \int_{\mathbf{R}} \widehat{f}(y)\psi_n(y)e^{2i\piby}\ \mathrm{d}y\\
+  &= \int_{\mathbf{R}} f(x) \widehat{\psi_n(y)e^{2i\piby}}(x)\ \mathrm{d}x \text{ par 1.1}\\
+  &= \int_{\mathbf{R}} f(x) \widehat{\psi_n}(x-b)\ \mathrm{d}x\\
+  &= \int_{\mathbf{R}} f(x) \widehat{\psi_n}(b-x)\ \mathrm{d}x \text{ (parité)}\\
+  &= \hat{\psi_n} * f(b).
+\end{align} $$
 
 ### 1.5
 En déduire que $f=0$. Que conclut-on ?
 
-**Réponse.**
+**Réponse.** Comme $0 = \widehat{\psi_n} * f \to f$ dans $L^1(\mathbf{R})$, $f=0$ et on injectivité de la transformée de Fourier sur cet espace.
 
 ## Exercice 2 (10 points)
 
