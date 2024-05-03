@@ -17,33 +17,39 @@ $$ \int_{\mathbf{R}} \widehat{f}(y) g(y)\ \mathrm{d}y = \int_{\mathbf{R}} f(y) \
 **Réponse.** Par Tonelli,
 
 $$ \int_{\mathbf{R}} |\widehat{f}(y) g(y)|\ \mathrm{d}y
- = \int_{\mathbf{R}} | \int_{\mathbf{R}} e^{-2i\pi yx}f(x)\ \mathrm{d}x | g(y)\ \mathrm{d}y \leq ||f||_1 ||g||_1 < \infty $$
+ = \int_{\mathbf{R}} \vert \int_{\mathbf{R}} e^{-2i\pi yx}f(x)\ \mathrm{d}x \vert g(y)\ \mathrm{d}y \leq ||f||_1 ||g||_1 < \infty $$
 
  donc l'intégrale (de même que l'autre par symétrie) est bien définie, et Fubini s'applique :
 
-$$ \begin{array}{rcl}
-  \int_{\mathbf{R}} \widehat{f}(y) g(y)\ \mathrm{d}y
-  & = & \int_{\mathbf{R}} ( \int_{\mathbf{R}} e^{-2i\pi yx}f(x)\ \mathrm{d}x ) g(y)\ \mathrm{d}y\\
-  & = & \int_{\mathbf{R}} f(x) ( \int_{\mathbf{R}} e^{-2i\pi yx}g(y)\ \mathrm{d}y ) \ \mathrm{d}x\\
-  & = & \int_{\mathbf{R}} f(x) \widehat{g}(x)\ \mathrm{d}x.
-\end{array} $$
-
-\begin{align}
+$$ \begin{align}
   \int_{\mathbf{R}} \widehat{f}(y) g(y)\ \mathrm{d}y
   & = \int_{\mathbf{R}} ( \int_{\mathbf{R}} e^{-2i\pi yx}f(x)\ \mathrm{d}x ) g(y)\ \mathrm{d}y\\
   & = \int_{\mathbf{R}} f(x) ( \int_{\mathbf{R}} e^{-2i\pi yx}g(y)\ \mathrm{d}y ) \ \mathrm{d}x\\
   & = \int_{\mathbf{R}} f(x) \widehat{g}(x)\ \mathrm{d}x.
-\end{align}
+\end{align} $$
 
 ### 1.2
 Soit $a > 0$, on définit $\psi(x) = a e^{-\pi x^2}$, $x \in \mathbf{R}$. Déterminer $a$ pour que $||\widehat{\psi}||_1=1$. (On prend cette valeur pour $a$ dans la suite de l'exercice.) 
 
-**Réponse.**
+**Réponse.** $a=1$
 
 ### 1.3
 Pour $n \geq 1$, pose $\psi_n(x) := \psi(x/n)$, $x \in \mathbf{R}$. Montrer que, quelle que soit $f \in L^1(\mathbf{R})$, la suite $(\widehat{\psi_n} * f)_n$ converge vers $f$ dans $L^1(\mathbf{R})$ quand $n \to \infty$.
 
-**Réponse.**
+**Réponse.** Comme $\widehat{\psi}=\psi$, $||\widehat{\psi}||_1 = 1$ ; on a $\widehat{\psi_n}(\xi)=n\widehat{\psi}(n\xi)$, et encore $||\widehat{\psi_n}||_1=1$. Soit $f$ dans $L^1(\mathbf{R})$ et soit $\varepsilon > 0$. Il existe $g$ continue à support compact telle que $||f-g||_1 \leq \varepsilon$, donc
+
+$$ \begin{align}
+  ||\widehat{\psi_n} * f - f||_1 & \leq ||\widehat{\psi_n} * (f-g)||_1 + ||\widehat{\psi_n} * g - g||_1 + ||f-g|_1\\
+  & \leq ||\widehat{\psi_n}||_1 ||f-g||_1 + ||\widehat{\psi_n} * g - g||_1 + \varepsilon\\
+  & \leq 2\varepsilon + ||\widehat{\psi_n} * g - g||_1
+\end{align} $$
+
+et (changement de variable $z=ny$ pui Fubini)
+
+$$ \begin{align}
+  ||\widehat{\psi_n} * g - g||_1 & = \int_{\mathbf{R}} \vert 
+\end{align} $$
+
 
 ### 1.4
 On considère désormais $f$ dans $L^1(\mathbf{R})$ telle que $\widehat{f}=0$. Soit $b$ dans $\mathbf{R}$, montrer que
