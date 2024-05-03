@@ -66,7 +66,7 @@ $$ \begin{align}
 \end{align} $$
 
 $$ \begin{align}
-  0 &= \int_{\mathbf{R}} \widehat{f}(y)\psi_n(y)e^{2i\pi by}\\
+  0 &= \int_{\mathbf{R}} \widehat{f}(y)\psi_n(y)e^{2i\pi by}\ dy\\
   &= \int_{\mathbf{R}} f(x) \widehat{\psi_n(y)e^{2i\pi by}}(x)\ \mathrm{d}x \text{ (par 1.1)}\\
   &= \int_{\mathbf{R}} f(x) \widehat{\psi_n}(x-b)\ \mathrm{d}x\\
   &= \int_{\mathbf{R}} f(x) \widehat{\psi_n}(b-x)\ \mathrm{d}x \text{ (parité)}\\
