@@ -28,12 +28,12 @@ $$ \begin{array}{rcl}
   & = & \int_{\mathbf{R}} f(x) \widehat{g}(x)\ \mathrm{d}x.
 \end{array} $$
 
-$$ \begin{align}
+\begin{align}
   \int_{\mathbf{R}} \widehat{f}(y) g(y)\ \mathrm{d}y
   & = \int_{\mathbf{R}} ( \int_{\mathbf{R}} e^{-2i\pi yx}f(x)\ \mathrm{d}x ) g(y)\ \mathrm{d}y\\
   & = \int_{\mathbf{R}} f(x) ( \int_{\mathbf{R}} e^{-2i\pi yx}g(y)\ \mathrm{d}y ) \ \mathrm{d}x\\
   & = \int_{\mathbf{R}} f(x) \widehat{g}(x)\ \mathrm{d}x.
-\end{align} $$
+\end{align}
 
 ### 1.2
 Soit $a > 0$, on définit $\psi(x) = a e^{-\pi x^2}$, $x \in \mathbf{R}$. Déterminer $a$ pour que $||\widehat{\psi}||_1=1$. (On prend cette valeur pour $a$ dans la suite de l'exercice.) 
