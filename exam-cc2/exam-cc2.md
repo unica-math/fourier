@@ -115,14 +115,14 @@ $$ \begin{align}
 
 On obtient la forme voulue en utilisant
 
-$$ \widehat{e^{-uy^2}}(\xi) = \sqrt{\pi/u}e^{-\pi^2\xi^2/u}. $$
+$$ \widehat{e^{-uy^2}}(\xi) = \sqrt{\frac{\pi}{u}}e^{-\pi^2\xi^2/u}. $$
 
 ### 2.4
 On considère désormais $f(x) := e^{-|x|}$, $x \in \mathbf{R^d}$. (Pour $d \geq 1$, on note $|x|=\sqrt{|x_1|^2 + \cdots + |x_d|^2}$.) Pour $u > 0$, on pose $g_u(x) := e^{-|x|^2/(4u)}$, $x \in \mathbf{R}^d$. Montrer que
 
 $$ \widehat{f}(\xi) = \int_0^\infty \frac{1}{\sqrt{\pi u}} e^{-u}\ \widehat{g_u}(\xi)\ \mathrm{d}u,\quad \xi \in \mathbf{R^d}. $$
 
-**Réponse.**
+**Réponse.** Fubini avec $\beta=|x|$
 
 ### 2.5
 Calculer $\widehat{g_u}$ et en déduire que
@@ -135,4 +135,12 @@ $$ \Gamma(y) := \int_0^\infty t^{y-1}e^{-t}\ \mathrm{d}t,\quad y > 0. $$
 
 **Indication.** On rappelle que $\widehat{e^{-\pi|x|^2}} = e^{-\pi|\xi|^2}$. 
 
-**Réponse.**
+**Réponse.** On a
+
+$$ \widehat{g_u}(\xi) = (2\sqrt{\pi u})^d e^{-4\pi^2u|\xi|^2} $$
+
+d'où l'on tire
+
+$$ \widehat{f}(\xi) = \int_0^\infty 2^d(\pi u)^{(d-1)/2} e^{-(1+4\pi^2|\xi|^2)u}\ \mathrm{d}u $$
+
+et la forme voulue en changeant de variable selon $t = (1+4\pi^2|\xi|^2)u$.
