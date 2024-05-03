@@ -92,9 +92,9 @@ $$ e^{-|\beta|} = \frac{2}{\pi} \int_0^\infty \frac{\cos(\beta y)}{1+y^2}\ \math
 **Réponse.** Soit $\beta \in \mathbf{R}$, d'après la question précédente (avec $a=1$ et en utilisant la parité)
 
 $$ \begin{align}
-  e^{-|\beta|} &= \matscr{F}^{-1}(\frac{2}{1+4\pi^2\xi^2})\\
+  e^{-|\beta|} &= \mathscr{F}^{-1}(\frac{2}{1+4\pi^2\xi^2})\\
   &= 2\int_0^\infty \cos(2\pi\beta\xi) \frac{2}{1+4\pi^2\xi^2}\ \mathrm{d}\xi\\
-  &= \frac{2}{pi} \int_0^\infty \cos(\beta y) \frac{2}{1+y^2}\ \mathrm{d}y.
+  &= \frac{2}{\pi} \int_0^\infty \cos(\beta y) \frac{2}{1+y^2}\ \mathrm{d}y.
 \end{align} $$
 
 ### 2.3
@@ -109,8 +109,8 @@ $$ \frac{1}{1+y^2} = \int_0^\infty e^{-(1+y^2)u}\ \mathrm{d}u,\quad y \in \mathb
 **Réponse.** On vérifie (Tonelli) qu'on peut Fubiniser l'intégrale ci-dessous, d'où
 
 $$ \begin{align}
-  e^{-|\beta|} &= \frac{2}{pi} \int_0^\infty \cos(\beta y) ( \int_0^\infty e^{-(1+y^2)u}\ \mathrm{d}u ) \ \mathrm{d}y\\
-  &= \frac{1}{pi} \int_0^\infty e^{-u} \underbrace{( 2\int_0^\infty \cos(\beta y) e^{-uy^2}\ \mathrm{d}y}_{=\widehat{e^{-uy^2}(\beta/(2\pi))}} )\ \mathrm{d}u\\
+  e^{-|\beta|} &= \frac{2}{\pi} \int_0^\infty \cos(\beta y) ( \int_0^\infty e^{-(1+y^2)u}\ \mathrm{d}u ) \ \mathrm{d}y\\
+  &= \frac{1}{\pi} \int_0^\infty e^{-u} \underbrace{( 2\int_0^\infty \cos(\beta y) e^{-uy^2}\ \mathrm{d}y}_{=\widehat{e^{-uy^2}(\beta/(2\pi))}} )\ \mathrm{d}u\\
 \end{align} $$
 
 ### 2.4
