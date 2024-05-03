@@ -100,7 +100,7 @@ $$ \begin{align}
 ### 2.3
 En déduire que
 
-$$ e^{-|\beta|} = \int_0^\infty \frac{1}{\sqrt{\pi u}}e^{-u-\beta^2/(4u)}\ \mathrm{d}u. $$
+$$ e^{-|\beta|} = \int_0^\infty \frac{1}{\sqrt{\pi u}}e^{-u-\beta^2/4u}\ \mathrm{d}u. $$
 
 **Indication.** On pourra utiliser le fait que
 
@@ -110,7 +110,7 @@ $$ \frac{1}{1+y^2} = \int_0^\infty e^{-(1+y^2)u}\ \mathrm{d}u,\quad y \in \mathb
 
 $$ \begin{align}
   e^{-|\beta|} &= \frac{2}{\pi} \int_0^\infty \cos(\beta y) ( \int_0^\infty e^{-(1+y^2)u}\ \mathrm{d}u ) \ \mathrm{d}y\\
-  &= \frac{1}{\pi} \int_0^\infty e^{-u} (\underbrace{2\int_0^\infty \cos(\beta y) e^{-uy^2}\ \mathrm{d}y}_{=\widehat{e^{-uy^2}}(\beta/(2\pi))} )\ \mathrm{d}u\\
+  &= \frac{1}{\pi} \int_0^\infty e^{-u} (\underbrace{2\int_0^\infty \cos(\beta y) e^{-uy^2}\ \mathrm{d}y}_{=\widehat{e^{-uy^2}}(\beta/2\pi)} )\ \mathrm{d}u\\
 \end{align} $$
 
 ### 2.4
