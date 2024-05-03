@@ -15,7 +15,7 @@ Soient $f$ et $g$ dans $L^1(\mathbf{R})$, montrer que
 $$ \int_{\mathbf{R}} \widehat{f}(y) g(y)\ \mathrm{d}y = \int_{\mathbf{R}} f(y) \widehat{g}(y)\ \mathrm{d}y. $$
 
 ### 1.2
-Soit $a > 0$, on définit $\psi(x) = a e^{-\pi x^2}$, $x \in \mathbf{R}$. Déterminer $a$ pour que $\|\widehat{\psi}\|_1=1$. (On prend cette valeur pour $a$ dans la suite de l'exercice.) 
+Soit $a > 0$, on définit $\psi(x) = a e^{-\pi x^2}$, $x \in \mathbf{R}$. Déterminer $a$ pour que $||\widehat{\psi}||_1=1$. (On prend cette valeur pour $a$ dans la suite de l'exercice.) 
 
 ### 1.3
 Pour $n \geq 1$, pose $\psi_n(x) := \psi(x/n)$, $x \in \mathbf{R}$. Montrer que, quelle que soit $f \in L^1(\mathbf{R})$, la suite $(\widehat{\psi_n} * f)_n$ converge vers $f$ dans $L^1(\mathbf{R})$ quand $n \to \infty$.
