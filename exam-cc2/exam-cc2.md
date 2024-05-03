@@ -63,9 +63,17 @@ $$ \widehat{\psi_n} * f(b) = 0. $$
 **Réponse.**
 $$ \begin{align}
   0 &= \int_{\mathbf{R}} \widehat{f}(y)\psi_n(y)e^{2i\piby}\ \mathrm{d}y\\
+\end{align} $$
+$$ \begin{align}
   &= \int_{\mathbf{R}} f(x) \widehat{\psi_n(y)e^{2i\piby}}(x)\ \mathrm{d}x \text{ par 1.1}\\
+\end{align} $$
+$$ \begin{align}
   &= \int_{\mathbf{R}} f(x) \widehat{\psi_n}(x-b)\ \mathrm{d}x\\
+\end{align} $$
+$$ \begin{align}
   &= \int_{\mathbf{R}} f(x) \widehat{\psi_n}(b-x)\ \mathrm{d}x \text{ (parité)}\\
+\end{align} $$
+$$ \begin{align}
   &= \hat{\psi_n} * f(b).
 \end{align} $$
 
