@@ -44,10 +44,10 @@ $$ \begin{align}
   & \leq 2\varepsilon + ||\widehat{\psi_n} * g - g||_1
 \end{align} $$
 
-et (changement de variable $z=ny$ pui Fubini)
+et (changement de variable $z=ny$ puis Fubini)
 
 $$ \begin{align}
-  ||\widehat{\psi_n} * g - g||_1 & = \int_{\mathbf{R}} | \int_{\mathbf{R}} \widehat{\psi_n}(y)g(x-y)\ \mathrm{d}y - g(x) |\ \mathrm{d}x\\
+  ||\widehat{\psi_n} * g - g||\_1 & = \int_{\mathbf{R}} | \int_{\mathbf{R}} \widehat{\psi_n}(y)g(x-y)\ \mathrm{d}y - g(x) |\ \mathrm{d}x\\
   & \leq \int_{\mathbf{R}} \widehat{\psi}(z) ( \int_{\mathbf{R}} |g(x-z/n)-g(x)|\ \mathrm{d}x )\ \mathrm{d}z 
 \end{align} $$
 
