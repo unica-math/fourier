@@ -141,6 +141,6 @@ $$ \widehat{g_u}(\xi) = (2\sqrt{\pi u})^d e^{-4\pi^2u|\xi|^2} $$
 
 d'où l'on tire
 
-$$ \widehat{f}(\xi) = \int_0^\infty 2^d(\pi u)^{(d-1)/2} e^{-(1+4\pi^2|\xi|^2)u}\,\mathrm{d}u $$
+$$ \widehat{f}(\xi) = \int_0^\infty 2^d(\pi u)^{(d-1)/2} e^{-(1+4\pi^2|\xi|^2)u}\ \mathrm{d}u $$
 
 et la forme voulue en changeant de variable selon $t = (1+4\pi^2|\xi|^2)u$.
