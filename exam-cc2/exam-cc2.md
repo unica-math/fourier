@@ -63,6 +63,9 @@ $$ \widehat{\psi_n} * f(b) = 0. $$
 **Réponse.**
 $$ \begin{align}
   0 &= \int_{\mathbf{R}} \widehat{f}(y)\psi_n(y)e^{2i\pi by}\ \mathrm{d}y \\
+\end{align} $$
+
+$$ \begin{align}
   &= \int_{\mathbf{R}} f(x) \widehat{\psi_n(y)e^{2i\pi by}}(x)\ \mathrm{d}x \text{ par 1.1}\\
 \end{align} $$
 
