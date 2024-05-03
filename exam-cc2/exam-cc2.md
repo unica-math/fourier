@@ -73,7 +73,7 @@ $$ \begin{align}
 ### 1.5
 En déduire que $f=0$. Que conclut-on ?
 
-**Réponse.** Comme $0 = \widehat{\psi_n} * f \to f$ dans $L^1(\mathbf{R})$, $f=0$ et on injectivité de la transformée de Fourier sur cet espace.
+**Réponse.** Comme $0 = \widehat{\psi_n} * f \to f$ dans $L^1(\mathbf{R})$, $f=0$ et on a injectivité de la transformée de Fourier sur cet espace.
 
 ## Exercice 2 (10 points)
 
@@ -122,7 +122,7 @@ On considère désormais $f(x) := e^{-|x|}$, $x \in \mathbf{R^d}$. (Pour $d \geq
 
 $$ \widehat{f}(\xi) = \int_0^\infty \frac{1}{\sqrt{\pi u}} e^{-u}\ \widehat{g_u}(\xi)\ \mathrm{d}u,\quad \xi \in \mathbf{R^d}. $$
 
-**Réponse.** Fubini avec $\beta=|x|$
+**Réponse.** Fubini avec $\beta=|x|$.
 
 ### 2.5
 Calculer $\widehat{g_u}$ et en déduire que
