@@ -21,7 +21,7 @@ $$ \int_{\mathbf{R}} |\widehat{f}(y) g(y)|\ \mathrm{d}y
 
  donc l'intégrale (de même que l'autre par symétrie) est bien définie, et Fubini s'applique :
 
-$$ \begin{array}{rcl}
+$$ \begin{array}{rcl} \displaystyle
   \int_{\mathbf{R}} \widehat{f}(y) g(y)\ \mathrm{d}y
   & = & \int_{\mathbf{R}} ( \int_{\mathbf{R}} e^{-2i\pi yx}f(x)\ \mathrm{d}x ) g(y)\ \mathrm{d}y\\
   & = & \int_{\mathbf{R}} f(x) ( \int_{\mathbf{R}} e^{-2i\pi yx}g(y)\ \mathrm{d}y ) \ \mathrm{d}x\\
