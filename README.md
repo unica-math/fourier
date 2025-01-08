@@ -5,7 +5,7 @@
 
 [LMS du cours](https://lms.univ-cotedazur.fr/2023/course/view.php?id=4182)
 
-[Discussions](https://github.com/unica-math/fourier/discussions/1)
+[Discussions](https://github.com/unica-math/fourier-2023-24/discussions/1)
 
 [Exam CC no. 1](exam-cc1/exam-cc1.md)
 
