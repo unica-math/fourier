@@ -7,6 +7,10 @@
 
 [Discussions](https://github.com/unica-math/fourier/discussions/1)
 
+[TD1 - Espaces L^p](td1/td1.pdf)
+
+[TD2 - Transformée de Fourier](td2/td2.pdf)
+
 # Bibliographie
 
 Voir [LMS](https://lms.univ-cotedazur.fr/2024/course/view.php?id=8720)
