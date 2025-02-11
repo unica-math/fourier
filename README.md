@@ -3,7 +3,7 @@
 # Analyse de Fourier et distributions
 # 2023-24
 
-[LMS du cours](https://lms.univ-cotedazur.fr/2023/course/view.php?id=4182)
+[LMS du cours](https://lms.univ-cotedazur.fr/2024/course/view.php?id=8720)
 
 [Discussions](https://github.com/unica-math/fourier-2023-24/discussions/1)
 
@@ -13,7 +13,7 @@
 
 # Bibliographie
 
-Voir [LMS](https://lms.univ-cotedazur.fr/2023/course/view.php?id=4182)
+Voir [LMS](https://lms.univ-cotedazur.fr/2024/course/view.php?id=8720)
 
 # Évaluation
 Exam CC no. 1 (coeff. 0.2) + exam CC no. 2 (coeff. 0.2) + 1 séance de colle (coeff. 0.15) + 1 exam terminal (coeff. 0.45)
