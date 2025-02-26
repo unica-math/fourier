@@ -11,6 +11,8 @@
 
 [TD2 - Transformée de Fourier](td2/td2.pdf)
 
+[Exam CC no. 1](exam-cc1/exam-cc1.md)
+
 # Bibliographie
 
 Voir [LMS](https://lms.univ-cotedazur.fr/2024/course/view.php?id=8720)
