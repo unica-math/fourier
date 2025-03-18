@@ -102,7 +102,7 @@ $$ \int_{\mathbf{R}} |f(x-y)g(y)|\,\mathrm{d}y \leq \|f\|_1^{1/q} (|f| * |g|^p)^
 
 ce qui montre que la convolution est bien définie et permet ensuite de majorer selon
 
-$$ \int_{\mathbf{R}} |f * g(x)|^p\,\mathrm{d}x \leq \|f\|_1^{p/q} \|f\|_1 \|g\|_p, $$
+$$ \int_{\mathbf{R}} |f * g(x)|^p\,\mathrm{d}x \leq \|f\|_1^{p/q} \|f\|_1 \|g\|_p^p, $$
 
 d'où l'appartenance à $L^p$ et la majoration voulue.
 
