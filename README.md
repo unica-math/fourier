@@ -15,6 +15,8 @@
 
 [Exam CC no. 1](exam-cc1/exam-cc1.md)
 
+[Exam CC no. 2](exam-cc2/exam-cc2.md)
+
 # Bibliographie
 
 Voir [LMS](https://lms.univ-cotedazur.fr/2024/course/view.php?id=8720)
