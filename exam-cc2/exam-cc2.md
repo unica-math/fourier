@@ -10,7 +10,7 @@
 
 ## Exercice 1 (6 points)
 
-On considère une fonction qui à tout $(t,x)\in [0,+\infty[\times \mathbf{R}$, associe $u(t,x)\in \mathbf{R}.$ On suppose que pour $t\geq 0$, $u(t,\cdot), \partial_t u(t,\cdot), \partial_x u(t,\cdot)$ et $\partial_{xx} u(t,\cdot)$ sont toutes dans $L^1(\mathbf{R})$. On cherche à décrire un tel $u$ vérifiant l'équation de la chaleur unidimensionnelle : 
+On considère une fonction $u$ qui à tout $(t,x)\in [0,+\infty[\times \mathbf{R}$, associe $u(t,x)\in \mathbf{R}.$ On suppose que pour $t > 0$, $u(t,\cdot), \partial_t u(t,\cdot), \partial_x u(t,\cdot)$ et $\partial_{xx} u(t,\cdot)$ existent et sont toutes dans $L^1(\mathbf{R})$. On suppose enfin que $u$ vérifie l'équation de la chaleur unidimensionnelle : 
 
 $$ \partial_t u(t,x) = \partial_{xx}u(t,x),\quad (t,x) \in ]0,+\infty[\times \mathbf{R}, $$
 
